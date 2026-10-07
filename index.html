@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Orchard | 新鮮蘋果專賣</title>
+    <meta
+      name="description"
+      content="Apple Orchard 提供新鮮、天然、健康的蘋果，從果園直送到你家。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">🍏</span>
+          <span>Apple Orchard</span>
+        </div>
+        <nav class="main-nav">
+          <a href="#products">產品</a>
+          <a href="#features">優勢</a>
+          <a href="#reviews">評價</a>
+          <a href="#order">訂購</a>
+        </nav>
+        <button class="nav-button" data-scroll="#order">立即購買</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">每日直送 · 果園直採</span>
+            <h1>新鮮蘋果，讓你一口就愛上。</h1>
+            <p>
+              從香甜多汁的富士蘋果到清爽脆口的青蘋果，我們提供全年新鮮、無農藥殘留的高品質蘋果，
+              送到家中就能享受果園的自然美味。
+            </p>
+            <div class="hero-actions">
+              <a href="#products" class="primary-btn">選購蘋果</a>
+              <a href="#features" class="secondary-btn">了解更多</a>
+            </div>
+            <ul class="hero-stats">
+              <li><strong>12,000+</strong><span>顧客信賴</span></li>
+              <li><strong>48h</strong><span>出貨速度</span></li>
+              <li><strong>100%</strong><span>新鮮保證</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="蘋果圖片展示">
+            <div class="apple-card main-card">
+              <div class="apple-image large-apple">🍏</div>
+              <div class="product-badge">熱銷款</div>
+            </div>
+            <div class="apple-card floating-card top-card">
+              <span>富士蘋果</span>
+              <strong>NT$ 120 / 盒</strong>
+            </div>
+            <div class="apple-card floating-card bottom-card">
+              <span>當季推薦</span>
+              <strong>低糖香甜</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="products section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">人氣商品</span>
+            <h2>選擇最適合你的蘋果</h2>
+          </div>
+          <div id="product-grid" class="product-grid"></div>
+        </div>
+      </section>
+
+      <section id="features" class="features section alt-bg">
+        <div class="container">
+          <div class="section-heading narrow">
+            <span class="eyebrow">為什麼選擇我們</span>
+            <h2>安心、健康、每一口都值得期待</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-item">
+              <div class="feature-icon">🌿</div>
+              <h3>自然種植</h3>
+              <p>在有機農地中培育，保留蘋果本身的甘甜與香氣。</p>
+            </article>
+            <article class="feature-item">
+              <div class="feature-icon">🚚</div>
+              <h3>快速配送</h3>
+              <p>下單後 48 小時內出貨，讓你馬上享受新鮮口感。</p>
+            </article>
+            <article class="feature-item">
+              <div class="feature-icon">✅</div>
+              <h3>品質保證</h3>
+              <p>每一箱都經過嚴格篩選與檢驗，安心食用。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="reviews section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">顧客回饋</span>
+            <h2>大家都說好吃又安心</h2>
+          </div>
+          <div class="review-grid">
+            <blockquote>
+              「蘋果很新鮮，甜度剛剛好，兒子一口接一口，真的超推薦！」
+              <footer>— 林小姐</footer>
+            </blockquote>
+            <blockquote>
+              「禮盒包裝很漂亮，送親友也很有面子，而且價錢很合理。」
+              <footer>— 陳先生</footer>
+            </blockquote>
+            <blockquote>
+              「水果很甜，配送超快，會繼續回購。」
+              <footer>— 王太太</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="order" class="order section">
+        <div class="container order-layout">
+          <div class="order-copy">
+            <span class="eyebrow">限時優惠</span>
+            <h2>買 2 送 1，今天下單再享 10% 折扣</h2>
+            <p>
+              只要在本週內訂購，就能享受超值優惠，讓你家裡天天有新鮮蘋果。
+            </p>
+            <ul>
+              <li>全程冷藏配送</li>
+              <li>每單附贈購物袋</li>
+              <li>7 日內可退換</li>
+            </ul>
+          </div>
+
+          <aside class="cart-card">
+            <div class="cart-header">
+              <h3>購物車</h3>
+              <span id="cart-count">0 件</span>
+            </div>
+            <div id="cart-items" class="cart-items"></div>
+            <div class="cart-summary">
+              <div>
+                <span>小計</span>
+                <strong id="subtotal">NT$ 0</strong>
+              </div>
+              <div>
+                <span>運費</span>
+                <strong id="shipping">NT$ 0</strong>
+              </div>
+              <div class="total-row">
+                <span>總金額</span>
+                <strong id="total">NT$ 0</strong>
+              </div>
+            </div>
+            <button id="checkout-btn" class="checkout-btn">結帳</button>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="brand small-brand">
+            <span class="brand-mark">🍏</span>
+            <span>Apple Orchard</span>
+          </div>
+        </div>
+        <p>© 2026 Apple Orchard. Fresh from our orchard to your home.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
